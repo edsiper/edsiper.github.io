@@ -11,73 +11,76 @@ defaultContentLanguage = "en-gb"
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
 
-# traditional way: theme component resides in directory 'themes'
-#theme = "hugo-blog-awesome"
-
 [module]
   [[module.imports]]
     path = "github.com/hugo-sid/hugo-blog-awesome"
 
 [services]
-# To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
-# To disable Google Analytics, simply leave the field empty or remove the next two lines
   [services.googleAnalytics]
     id = 'G-FZ5HERLPB3'
 
-# To enable Disqus comments, provide Disqus Shortname below.
-# To disable Disqus comments, simply leave the field empty or remove the next two lines
   [services.disqus]
     shortname = ''
 
-# set markup.highlight.noClasses=false to enable code highlight
 [markup]
   [markup.highlight]
     noClasses = false
   [markup.goldmark.renderer]
     unsafe = true
-	[markup.tableOfContents]
-		startLevel = 2 # ToC starts from H2
-		endLevel = 4 # ToC ends at H4
-		ordered = false # generates <ul> instead of <ol>
+    [markup.tableOfContents]
+      startLevel = 2
+      endLevel = 4
+      ordered = false
 
+# ✅ NEW multilingual block
+[Languages.en-gb]
+  languageName = "English"
+  languageCode = "en-gb"
+  contentDir = "content"
+  weight = 1
 
-[params.author]
-  avatar = "edsiper.jpeg"
-  intro = "Bits and pieces on open source and observability."
-  name = "Eduardo Silva Pereira"
-  description = "Eduardo Silva Pereira’s blog (aka edsiper), a space for tech, software, and ideas."
+  [Languages.en-gb.params.author]
+    avatar = "images/edsiper.jpeg"
+    intro = "Bits and pieces on open source and observability."
+    name = "Eduardo Silva Pereira"
+    description = "Eduardo Silva Pereira’s blog (aka edsiper), a space for tech, software, and ideas."
 
-[params.webmanifest]
-  name = "Eduardo's Blog"
-  short_name = "Eduardo's Blog"
-  start_url = "/"
-  theme_color = "#434648"
-  background_color = "#fff"
-  display = "standalone"
+  [Languages.en-gb.params.webmanifest]
+    name = "Eduardo's Blog"
+    short_name = "Eduardo's Blog"
+    start_url = "/"
+    theme_color = "#434648"
+    background_color = "#fff"
+    display = "standalone"
 
-[[menu.main]]
-  pageRef="/"
-  name = 'Home'
-  url = '/'
-  weight = 10
+  [[Languages.en-gb.menu.main]]
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
 
-[[menu.main]]
-  pageRef="posts"
-  name = 'Posts'
-  url = '/posts/'
-  weight = 20
+  [[Languages.en-gb.menu.main]]
+    pageRef="posts"
+    name = 'Blog Posts'
+    url = '/posts/'
+    weight = 20
 
-[[menu.main]]
-  pageRef="about"
-  name = 'About'
-  url = '/about/'
-  weight = 30
+  [[Languages.en-gb.menu.main]]
+    pageRef="open-source"
+    name = 'Open Source'
+    url = '/open-source/'
+    weight = 20
+
+  [[Languages.en-gb.menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
 
 ###################################################################
 
-# Allow to override `browserconfig.xml` params (configuration for windows embedded browsers)
 [params.browserconfig]
-  TileColor = "#2d89ef" # default windows 10 blue tile color
+  TileColor = "#2d89ef"
 
 [[params.socialIcons]]
 name = "github"
