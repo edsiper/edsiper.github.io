@@ -6,15 +6,17 @@
     <description>Recent content in Posts on Eduardo Silva Pereira / Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 04 May 2025 12:27:18 -0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 May 2025 12:27:18 -0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git Init: starting This Blog</title>
+      <title>git init: how it started (Tech Edition)</title>
       <link>http://localhost:1313/posts/git-init/</link>
-      <pubDate>Sun, 04 May 2025 12:27:18 -0600</pubDate>
+      <pubDate>Sun, 11 May 2025 12:27:18 -0600</pubDate>
       
       <guid>http://localhost:1313/posts/git-init/</guid>
       
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/atari_mundoatari.png&#34; alt=&#34;Atari&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Just kicked off my new personal blog and wanted to share a bit about how I got started and ended up in front of a computer. Here&amp;rsquo;s the post that dives into it:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/about/#how-it-started-tech-edition&#34;&gt;How it started (Tech Edition)&lt;/a&gt;&lt;/p&gt;</description>
       
     </item>
     
