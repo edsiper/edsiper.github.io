@@ -8,4 +8,37 @@
 &lt;h2 id="quick-summary">Quick Summary&lt;/h2>
 &lt;p>I’m &lt;a href="https://www.linkedin.com/in/edsiper/">Eduardo Silva Pereira&lt;/a>, an open source software engineer from Valparaíso, Chile, now based in Costa Rica. I’m the creator of &lt;a href="https://fluentbit.io">Fluent Bit&lt;/a>, a high-performance telemetry agent now widely used in cloud-native infrastructure. My career started with systems programming in C and open source contributions, including &lt;a href="https://monkeywebserver.com/">Monkey Web Server&lt;/a>—my first project from my Linux days.&lt;/p></description></item><item><title>git init: how it started (Tech Edition)</title><link>https://edsiper.com/posts/git-init/</link><pubDate>Sun, 11 May 2025 12:27:18 -0600</pubDate><guid>https://edsiper.com/posts/git-init/</guid><description>&lt;p>&lt;img src="https://edsiper.com/images/atari_mundoatari.png" alt="Atari">&lt;/p>
 &lt;p>Just kicked off my new personal blog and wanted to share a bit about how I got started and ended up in front of a computer. Here&amp;rsquo;s the post that dives into it:&lt;/p>
-&lt;p>&lt;a href="https://edsiper.com/about/#how-it-started-tech-edition">How it started (Tech Edition)&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://edsiper.com/about/#how-it-started-tech-edition">How it started (Tech Edition)&lt;/a>&lt;/p></description></item><item><title>Contact</title><link>https://edsiper.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://edsiper.com/contact/</guid><description>&lt;h1> Get it touch! &lt;/h1>
+You can reach me through the form below:
+&lt;div style="margin-top: 2rem;">
+&lt;form
+action="https://formspree.io/f/mnndlrwk"
+method="POST"
+style="max-width: 500px;"
+>
+&lt;label style="display: block; margin-bottom: 1rem;">
+&lt;span style="display: block; font-weight: bold;">Your email:&lt;/span>
+&lt;input
+type="email"
+name="email"
+required
+style="width: 100%; padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc;"
+>
+&lt;/label>
+&lt;label style="display: block; margin-bottom: 1rem;">
+&lt;span style="display: block; font-weight: bold;">Your message:&lt;/span>
+&lt;textarea
+name="message"
+rows="5"
+required
+style="width: 100%; padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc;"
+>&lt;/textarea>
+&lt;/label>
+&lt;button
+type="submit"
+style="padding: 0.5rem 1.5rem; background-color: #333; color: white; border: none; border-radius: 4px; cursor: pointer;"
+>
+Send
+&lt;/button>
+&lt;/form>
+&lt;/div></description></item></channel></rss>
