@@ -65,7 +65,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
   [[Languages.en-gb.menu.main]]
     pageRef="posts"
-    name = 'Blog Posts'
+    name = 'Blog'
     url = '/posts/'
     weight = 20
 
@@ -73,6 +73,12 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     pageRef="about"
     name = 'About'
     url = '/about/'
+    weight = 30
+
+  [[Languages.en-gb.menu.main]]
+    pageRef="contact"
+    name = 'Contact'
+    url = '/contact/'
     weight = 30
 
 ###################################################################

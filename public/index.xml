@@ -39,5 +39,53 @@
       
     </item>
     
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/contact/</guid>
+      
+      <description>&lt;h1&gt; Get it touch! &lt;/h1&gt;
+
+You can reach me through the form below:
+
+&lt;div style=&#34;margin-top: 2rem;&#34;&gt;
+  &lt;form
+    action=&#34;https://formspree.io/f/mnndlrwk&#34;
+    method=&#34;POST&#34;
+    style=&#34;max-width: 500px;&#34;
+  &gt;
+    &lt;label style=&#34;display: block; margin-bottom: 1rem;&#34;&gt;
+      &lt;span style=&#34;display: block; font-weight: bold;&#34;&gt;Your email:&lt;/span&gt;
+      &lt;input
+        type=&#34;email&#34;
+        name=&#34;email&#34;
+        required
+        style=&#34;width: 100%; padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc;&#34;
+      &gt;
+    &lt;/label&gt;
+
+    &lt;label style=&#34;display: block; margin-bottom: 1rem;&#34;&gt;
+      &lt;span style=&#34;display: block; font-weight: bold;&#34;&gt;Your message:&lt;/span&gt;
+      &lt;textarea
+        name=&#34;message&#34;
+        rows=&#34;5&#34;
+        required
+        style=&#34;width: 100%; padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc;&#34;
+      &gt;&lt;/textarea&gt;
+    &lt;/label&gt;
+
+    &lt;button
+      type=&#34;submit&#34;
+      style=&#34;padding: 0.5rem 1.5rem; background-color: #333; color: white; border: none; border-radius: 4px; cursor: pointer;&#34;
+    &gt;
+      Send
+    &lt;/button&gt;
+  &lt;/form&gt;
+&lt;/div&gt;</description>
+      
+    </item>
+    
   </channel>
 </rss>
